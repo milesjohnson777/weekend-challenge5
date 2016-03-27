@@ -1,0 +1,13 @@
+<div ng-controller="AddController">
+    <h1>Welcome To Pet Generator.</h1>
+
+    <p> Add the pet you wish to have!
+        <form ng-submit="submit(petObject)">
+            <input ng-model="petObject.name" type="text" placeholder="Enter the pet's name"/>
+            <input ng-model="petObject.type" type="text" size="30" placeholder="What type of animal would it be?"/>
+            <input ng-model="petObject.age" type="number" placeholder="How old would it be?" />
+            <input ng-model="petObject.image" type="tex" placeholder="Enter an image URL" />
+            <input type="submit" />
+        </form>
+    </p>
+</div>

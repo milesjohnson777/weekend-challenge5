@@ -1,0 +1,12 @@
+.ng-enter{
+    transition: 1s;
+    opacity: 0;
+}
+
+.ng-animate-stagger{
+    transition-delay: 0.5s;
+}
+
+.ng-enter-active{
+    opacity: 1;
+}

@@ -1,0 +1,9 @@
+    <h1>Welcome To Pet Generator.</h1>
+
+    <h3>Here Are the Current Pets</h3>
+
+    <div ng-repeat="attribs in listOfAnimals.animals">
+        <h4>Name: {{ attribs.name }} | Age: {{ attribs.age }}</h4>
+        <h5>Type: {{ attribs.type }}</h5>
+        <img ng-src="{{ attribs.image }}" height="200px"/>
+    </div>
